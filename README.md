@@ -19,3 +19,9 @@ The initial pattern constitutes the seed of the system. The first generation is 
 the above rules simultaneously to every cell in the seed—births and deaths occur
 simultaneously, each generation is a pure function of the preceding one. The rules continue to
 be applied repeatedly to create further generations.
+
+How To Run :
+
+In order to run the game open the 'index.html'. There will be a 100x100 world rendered. Dead cells are in black; alive cells are in white. To change the state of one cell you should click the cell.
+
+When you click 'Tick' it will run one tick one the world applying the rules of the game to the world. If you click 'Autoplay' it will run ticks automatically, stopping when you click 'Tick', or when you click a cell, or when you click on 'Autoplay' again.
